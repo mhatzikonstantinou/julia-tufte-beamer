@@ -2,7 +2,7 @@
 A beamer template using Tufte-LaTeX style with Julia code integration similar to [Tufte Algorithms Book Template](https://github.com/sisl/tufte_algorithms_book). The template allows for the direct compilation of a presentation-ready PDF, including support for figures, Julia algorithm blocks, and Julia console blocks.
 
 
-Forked from [simple-tufte-beamer](https://github.com/ViniciusBRodrigues/simple-tufte-beamer) and framework modified from [tufte_algorithms_book](https://github.com/sisl/tufte_algorithms_book).
+Forked from [julia-tufte-beamer](https://github.com/mossr/julia-tufte-beamer) and framework modified from [tufte_algorithms_book](https://github.com/sisl/tufte_algorithms_book).
 
 
 ### Example
@@ -73,7 +73,7 @@ See example slides: [`main.pdf`](https://github.com/mossr/julia-tufte-beamer/blo
 # Installation
 Install [Julia](https://julialang.org/downloads/).
 
-Install LaTeX via texlive. We recommend [this repo](https://github.com/scottkosty/install-tl-ubuntu).
+Install LaTeX via texlive. I use an existing installation on my Windows machine that can be called on WSL using the exe extension.
 - Install the `lm-math` package to get the LatinModernMath font.
 
 Clone the repository to a location of your choosing:
