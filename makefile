@@ -18,10 +18,10 @@ set-sandbox:
 ## Full complication
 compile-core:
 	-julia --color=yes jl/pull_julia_code.jl && \
-	lualatex -shell-escape --aux-directory=output --include-directory=tex --include-directory=output $(MAIN) && \
-	pythontex output/$$(basename $(MAIN)) && \
-	biber --input-directory=tex output/main && \
-	lualatex -shell-escape --aux-directory=output --include-directory=tex --include-directory=output $(MAIN)
+	lualatex.exe -shell-escape --aux-directory=output --include-directory=tex --include-directory=output $(MAIN) && \
+	pythontex.exe output/$$(basename $(MAIN)) && \
+	biber.exe --input-directory=tex output/main && \
+	lualatex.exe -shell-escape --aux-directory=output --include-directory=tex --include-directory=output $(MAIN)
 
 
 compile: set-main compile-core
