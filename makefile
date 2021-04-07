@@ -37,7 +37,7 @@ full-sandbox: clean sandbox
 
 ## Quickly compile using only lualatex
 quick-core:
-	lualatex -shell-escape --aux-directory=output --include-directory=tex --include-directory=output $(MAIN)
+	lualatex.exe -shell-escape --aux-directory=output --include-directory=tex --include-directory=output $(MAIN)
 
 quick: set-main quick-core
 
